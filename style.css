@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f9f9f9;
+    background-color: #060929;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* NAV*/
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease border-radius 0.3s ease;
+    border-radius: 50%;
+}
+
+.nav-link:hover {
+    background-color: #5e5d5d44;
+}
+
+/* DESTACADO */
+.destacado {
+    background-image: linear-gradient(to bottom, #337ab7, #071e33);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destacado h1 {
+    font-size: 48px;
+}
+
+/* PARALLAX */
+.parallax {
+    position: relative;
+    overflow: hidden;
+    height: 300px; 
+}
+
+.bg-tech {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXG7Uai44LEosG4MIP-sdQQFdeY2AZOZc4Q&s');
+    background-size: contain;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+.bg-tech-2 {
+    background-image: url('https://img.freepik.com/foto-gratis/concepto-alojamiento-sitios-web-luz-brillante_23-2149406783.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bg-tech-3 {
+    background-image: url('https://www.nourmedical.com/images/headers/Record.jpeg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bg-tech-4 {
+    background-image: url('https://st2.depositphotos.com/1019970/11309/i/450/depositphotos_113094540-stock-photo-contact-us-banner.jpg'); 
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+.parallax-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.parallax-content p {
+    font-size: 20px;
+}
+
+
+/* SERVICIOS */
+#servicios {
+    padding: 50px 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* EQUIPO */
+#equipo {
+    padding: 50px 20px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* TESTIMONIOS */
+#testimonios {
+    padding: 50px 20px;
+}
+
+.testimonio {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.testimonio h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contacto{
+    padding: 100px 300px;
+}
+
+#contacto h2{
+    color: #f9f9f9;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
